@@ -47,8 +47,7 @@ const AddEmployeeModal: React.FC<AddEmployeeModalProps> = ({ onClose }) => {
               activeConnections: 0,
               totalBandwidthToday: '0 GB'
           }
-      }] : [],
-      authorizedRepos: []
+      }] : []
     });
 
     onClose();
